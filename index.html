@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.5.0/pure-min.css">
+<link rel="stylesheet" href="https://rawgit.com/tpreusse/radar-chart-d3/master/src/radar-chart.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/chart.css">
+
+
+
+<script src="https://d3js.org/d3.v3.js"></script>
+<script src="https://rawgit.com/tpreusse/radar-chart-d3/master/src/radar-chart.js"></script>
+</head>
+
+<body>
+    <div class="top">
+        <div class="title"> 
+            <div class="title1">1960’S</div>
+            <div class="title2">TOP BILLBOARD SONGS</div>
+            <!--<img src="how to read.svg"-->
+            <!--     alt="how to read"-->
+            <!--   />-->
+        </div>
+        <div class= "img">
+            <div class="image">
+                <img src="./img/how to read.png" alt="how to read">
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <div id="chart"></div>
+    </div>
+    
+    <div class="filter">
+        <div class="description">Filter by decades</div>
+        <div class="buttons">   
+        	<input type="radio" name="button" id="button60s" checked/>
+    		<label for="button60s" class="button60s button">60's</label>
+    		
+    		<input type="radio" name="button" id="button70s"/>
+    		<label for="button70s" class="button70s button">70's</label>
+    		
+    		<input type="radio" name="button" id="button80s"/>
+    		<label for="button80s" class="button80s button">80's</label>
+    		
+    		<input type="radio" name="button" id="button90s"/>
+    		<label for="button90s" class="button90s button">90's</label>
+    		
+    		<input type="radio" name="button" id="button00s"/>
+    		<label for="button00s" class="button00s button">00's</label>
+    		
+            <!--<div class="button60s button">60s</div>-->
+            <!--<div class="button70s button">70s</div>-->
+            <!--<div class="button80s button">80s</div>-->
+            <!--<div class="button90s button">90s</div>-->
+            <!--<div class="button00s button">00s</div>-->
+        </div> 
+    </div>
+    
+
+<span></span>
+
+
+
+<!--
+<h2>Simple single chart drawing</h2>
+<div class="chart-container"></div>
+<script>
+RadarChart.draw(".chart-container", data);
+</script>
+-->
+
+<script src="./app.js"></script>
+</body>

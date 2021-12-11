@@ -1,0 +1,144 @@
+
+body{
+    background: #000000;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 60px;
+    margin-left: 80px;
+
+}
+
+
+.title{
+    color: #8A23FF;
+}
+
+.title1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size:200px;
+}
+
+.title2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size:58px;
+}
+
+.image img{
+    width:100%;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width:50%;
+    margin-top: 30px;
+}
+
+
+
+#chart {
+    margin-bottom: 50px;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap : wrap;
+
+}
+
+.description{
+    /*display:inline;*/
+    text-align: center;
+}
+    
+.buttons{
+     margin-top:25px;
+     margin-bottom:90px;
+     text-align: center;
+}    
+
+.button {
+    display:inline;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    border-style: solid;
+    border-color: white;
+    border-width:  1px;
+    
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+
+input[type="radio"][name="button"][id="button60s"]:checked + label {
+  background:#8A23FF;
+  color:black;
+  border-color: #8A23FF;
+ 
+}
+
+input[type="radio"][name="button"][id="button70s"]:checked + label {
+  background:#DF44A6;
+  color:black;
+  border-color: #DF44A6;
+ 
+}
+
+input[type="radio"][name="button"][id="button80s"]:checked + label {
+  background:#D4F570;
+  color:black;
+  border-color: #D4F570;
+ 
+}
+
+input[type="radio"][name="button"][id="button90s"]:checked + label {
+  background:#22FFF2;
+  color:black;
+  border-color: #22FFF2;
+  
+}
+
+input[type="radio"][name="button"][id="button00s"]:checked + label {
+  background:#227AFF;
+  color:black;
+  border-color: #227AFF;
+}
+
+
+.button60s:hover {
+  background-color: #8A23FF;
+  color:black;
+}
+
+.button70s:hover {
+  background-color: #DF44A6;
+  color:black;
+}
+
+.button80s:hover {
+  background-color: #D4F570;
+  color:black;
+}
+
+.button90s:hover {
+  background-color: #22FFF2;
+  color:black;
+}
+
+.button00s:hover {
+  background-color: #227AFF;
+  color:black;
+}
+

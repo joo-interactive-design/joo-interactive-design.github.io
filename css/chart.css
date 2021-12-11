@@ -1,0 +1,41 @@
+.tip{
+  position: absolute;
+  padding: 10px;
+  background: lightgray;
+  border: 1px solid black;
+  pointer-events: none;
+  border-style:none;
+}
+
+.tooltip{
+    font-size:11px;
+    color:black;
+    
+}
+
+.single polygon {
+    fill: #8A23FF;
+}
+
+.radar-chart .axis .legend {
+    display: none;
+}
+
+.radar-chart .level{
+    stroke: white
+}
+
+.name{
+    width : 115px; 
+    font-size:12px; 
+    text-align:center;
+    font-weight: 600;
+}
+
+.artist{
+    width : 115px; 
+    font-size:12px; 
+    text-align:center;
+    font-weight: 200
+ 
+}
